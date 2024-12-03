@@ -104,7 +104,7 @@ const Hero = () => {
       <div className="bg-bgSecondary mx-auto w-[93.5%] sm:w-[516px] md:w-[696px] lg:w-[936px] xl:w-[1140px] 2xl:w-[1300px] max-w-full pt-[0] px-[30px] md:pt-[60px] md:p-[60px] rounded-[23px]">
         {/* Header */}
         <div
-          style={{ backgroundImage: "url('/src/assets/images/banner-bg.jpg')" }}
+          style={{ backgroundImage: "url('/assets/images/banner-bg.jpg')" }}
           className="relative w-full min-h-[390px] bg-cover bg-center text-white mb-[60px] py-[80px] px-[60px] rounded-[23px]"
         >
           <div className="text-[18px] mx-auto text-center md:text-left md:mx-0 w-full lg:w-3/5">
@@ -134,7 +134,7 @@ const Hero = () => {
                 className="bg-bgSecondary px-4 py-8 rounded-[23px]"
               >
                 <img
-                  src={`/src/assets/images/${card.image}`}
+                  src={`/assets/images/${card.image}`}
                   className="w-full object-contain rounded-[23px]"
                 />
 
@@ -179,7 +179,7 @@ const Hero = () => {
             >
               <div className="rounded-[23px] overflow-hidden">
                 <img
-                  src={`/src/assets/images/${item.image}`}
+                  src={`/assets/images/${item.image}`}
                   alt={item.image}
                   className="rounded-[23px]"
                 />

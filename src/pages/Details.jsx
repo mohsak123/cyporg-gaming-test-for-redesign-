@@ -65,13 +65,13 @@ const Details = () => {
         <div className="grid grid-cols-3 gap-[30px] lg:gap-6">
           <div className="col-span-3 lg:col-span-1">
             <img
-              src="/src/assets/images/feature-left.jpg"
+              src="/assets/images/feature-left.jpg"
               className="rounded-[23px] w-full"
             />
           </div>
           <div className="col-span-3 lg:col-span-2 overflow-hidden rounded-[23px] max-h-[305px] relative">
             <img
-              src="/src/assets/images/feature-right.jpg"
+              src="/assets/images/feature-right.jpg"
               className="w-full object-contain"
             />
             <div className="absolute flex items-center justify-center bg-white z-50 left-[50%] translate-y-[-50%] top-[50%] translate-x-[-50%] w-[45px] h-[45px] rounded-full text-textPrimary cursor-pointer">
@@ -134,13 +134,13 @@ const Details = () => {
 
           <div className="grid lg:grid-cols-3 mt-[30px] gap-[30px] lg:gap-6">
             <div className="col-span-3 lg:col-span-1 w-full rounded-[23px] overflow-hidden">
-              <img src="/src/assets/images/details-01.jpg" className="w-full" />
+              <img src="/assets/images/details-01.jpg" className="w-full" />
             </div>
             <div className="col-span-3 lg:col-span-1 w-full rounded-[23px] overflow-hidden">
-              <img src="/src/assets/images/details-02.jpg" className="w-full" />
+              <img src="/assets/images/details-02.jpg" className="w-full" />
             </div>
             <div className="col-span-3 lg:col-span-1 w-full rounded-[23px] overflow-hidden">
-              <img src="/src/assets/images/details-03.jpg" className="w-full" />
+              <img src="/assets/images/details-03.jpg" className="w-full" />
             </div>
             <div className="col-span-3 leading-[30px] text-[15px] text-[#666]">
               Cyborg Gaming is free HTML CSS website template provided by
@@ -175,7 +175,7 @@ const Details = () => {
               >
                 <div className="flex items-center gap-4">
                   <img
-                    src={`/src/assets/images/${item.image}`}
+                    src={`/assets/images/${item.image}`}
                     className="rounded-[23px]"
                   />
                   <div className="flex flex-col">

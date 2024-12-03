@@ -46,7 +46,7 @@ const Profile = () => {
             <div className="">
               <div className="w-full">
                 <img
-                  src="/src/assets/images/profile.jpg"
+                  src="/assets/images/profile.jpg"
                   className="rounded-[23px] w-full"
                 />
               </div>
@@ -94,7 +94,7 @@ const Profile = () => {
                 >
                   <div>
                     <img
-                      src={`/src/assets/images/${clip.image}`}
+                      src={`/assets/images/${clip.image}`}
                       className="rounded-[23px]"
                     />
                   </div>
@@ -129,7 +129,7 @@ const Profile = () => {
             >
               <div className="rounded-[23px] overflow-hidden">
                 <img
-                  src={`/src/assets/images/${item.image}`}
+                  src={`/assets/images/${item.image}`}
                   alt={item.image}
                   className="rounded-[23px]"
                 />

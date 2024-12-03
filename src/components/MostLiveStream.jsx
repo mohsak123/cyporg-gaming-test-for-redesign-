@@ -96,14 +96,14 @@ const MostLiveStream = ({ f, s }) => {
             <div key={item.id}>
               <div className="w-full">
                 <img
-                  src={`/src/assets/images/${item.imgStream}`}
+                  src={`/assets/images/${item.imgStream}`}
                   className="w-full rounded-[23px]"
                 />
               </div>
               <div className="mt-5 flex items-start gap-4">
                 <div className="">
                   <img
-                    src={`/src/assets/images/${item.imgAvatar}`}
+                    src={`/assets/images/${item.imgAvatar}`}
                     alt={`${item.name} avatar`}
                     className="max-w-[64px] object-contain rounded-full"
                   />

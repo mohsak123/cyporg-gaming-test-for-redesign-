@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import { CgMenuLeft } from "react-icons/cg";
 
 const Navbar = () => {
+  // eslint-disable-next-line no-unused-vars
   const [links, setLinks] = useState([
     { page: "home", path: "" },
     { page: "browse", path: "browse" },
@@ -11,6 +12,7 @@ const Navbar = () => {
     { page: "streams", path: "streams" },
   ]);
 
+  // eslint-disable-next-line no-unused-vars
   const [linksSmall, setLinksSmall] = useState([
     { page: "home", path: "" },
     { page: "browse", path: "browse" },
@@ -58,7 +60,7 @@ const Navbar = () => {
         className="flex transition-all duration-150 relative h-[80px] lg:h-[70px] mx-auto items-center justify-between px-[30px] lg:px-[12px] w-full lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px] max-w-full pt-[0] lg:pt-[40px]"
       >
         <div className="xl:border-r xl:border-bgSecondary xl:w-[218px] 2xl:w-[262px] ">
-          <img src="./src/assets/images/logo.png" className=" max-w-full" />
+          <img src="/assets/images/logo.png" className=" max-w-full" />
         </div>
         <div className="hidden lg:pl-8 xl:pl-14 2xl:pl-16 lg:flex justify-between items-center flex-1">
           <form className="relative">
@@ -104,7 +106,7 @@ const Navbar = () => {
                 profile
               </div>
               <img
-                src="/src/assets/images/profile-header.jpg"
+                src="/assets/images/profile-header.jpg"
                 alt="profile"
                 className="w-[30px] h-[30px] rounded-full"
               />

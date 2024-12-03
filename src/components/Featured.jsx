@@ -74,7 +74,7 @@ const Featured = ({ f, s }) => {
           >
             <div className="flex items-center gap-3">
               <img
-                src={`/src/assets/images/${item.image}`}
+                src={`/assets/images/${item.image}`}
                 className="rounded-[23px]"
               />
               <div className="">

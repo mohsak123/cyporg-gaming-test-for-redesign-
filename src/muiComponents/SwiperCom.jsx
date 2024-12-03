@@ -77,7 +77,7 @@ const SwiperCom = ({ data }) => {
             }}
           >
             <img
-              src={`/src/assets/images/${item.image}`}
+              src={`/assets/images/${item.image}`}
               alt={item.title}
               style={{
                 width: "100%",

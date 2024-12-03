@@ -85,7 +85,7 @@ const SlideAndTopStreams = ({ f, s }) => {
                   {item.id}
                 </div>
                 <img
-                  src={`/src/assets/images/${item.image}`}
+                  src={`/assets/images/${item.image}`}
                   className="rounded-full min-w-[46px] h-[46px]"
                 />
               </div>
