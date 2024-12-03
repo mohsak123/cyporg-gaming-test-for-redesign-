@@ -1,8 +1,13 @@
 import LiveStream from "../components/LiveStream";
 import Featured from "../components/Featured";
+import { useEffect } from "react";
 
 const Browse = () => {
   // eslint-disable-next-line no-unused-vars
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <section className="pt-[30px] lg:pt-[40px]">

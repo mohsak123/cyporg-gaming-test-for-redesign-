@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Title from "./../muiComponents/Title";
 import { FaEye } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -37,6 +37,10 @@ const Profile = () => {
       currently: "Downloaded",
     },
   ]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <section className="pt-[30px] lg:pt-[40px]">

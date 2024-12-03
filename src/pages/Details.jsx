@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 import { FaServer } from "react-icons/fa6";
 import { IoLogoGameControllerB } from "react-icons/io";
 import Title from "../muiComponents/Title";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Details = () => {
   const [data, setData] = useState([
@@ -58,6 +58,10 @@ const Details = () => {
       download: "2.3M",
     },
   ]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <section className="pt-[30px] lg:pt-[40px]">
