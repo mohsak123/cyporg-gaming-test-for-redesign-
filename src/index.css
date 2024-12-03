@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  .width-screen {
+    @apply md:w-[955px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px];
+  }
+
+  .btn {
+    @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200;
+  }
+}
+
+body {
+  background-color: #1f2122;
+  font-family: "Poppins", sans-serif;
+}
