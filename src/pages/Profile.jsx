@@ -92,10 +92,10 @@ const Profile = () => {
                   key={clip.id}
                   className="bg-bgSecondary py-7 px-4 rounded-[23px]"
                 >
-                  <div>
+                  <div className="w-full">
                     <img
                       src={`/assets/images/${clip.image}`}
-                      className="rounded-[23px]"
+                      className="rounded-[23px] w-full"
                     />
                   </div>
                   <div className="flex items-center justify-between mt-4 text-white">
