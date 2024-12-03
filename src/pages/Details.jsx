@@ -78,14 +78,13 @@ const Details = () => {
               src="/assets/images/feature-right.jpg"
               className="w-full object-contain"
             />
-            <div className="absolute flex items-center justify-center bg-white z-50 left-[50%] translate-y-[-50%] top-[50%] translate-x-[-50%] w-[45px] h-[45px] rounded-full text-textPrimary cursor-pointer">
-              <Link
-                to="https://www.youtube.com/watch?v=r1b03uKWk_M"
-                target="_blank"
-              >
-                <FaPlay className="text-sm" />
-              </Link>
-            </div>
+            <Link
+              to="https://www.youtube.com/watch?v=r1b03uKWk_M"
+              target="_blank"
+              className="absolute flex items-center justify-center bg-white z-50 left-[50%] translate-y-[-50%] top-[50%] translate-x-[-50%] w-[45px] h-[45px] rounded-full text-textPrimary cursor-pointer"
+            >
+              <FaPlay className="text-sm" />
+            </Link>
           </div>
         </div>
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Title from "./../muiComponents/Title";
 import { FaEye } from "react-icons/fa";
+import { FaPlay } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
@@ -96,11 +97,18 @@ const Profile = () => {
                   key={clip.id}
                   className="bg-bgSecondary py-7 px-4 rounded-[23px]"
                 >
-                  <div className="w-full">
+                  <div className="w-full relative">
                     <img
                       src={`/assets/images/${clip.image}`}
                       className="rounded-[23px] w-full"
                     />
+                    <Link
+                      to="https://www.youtube.com/watch?v=r1b03uKWk_M"
+                      target="_blank"
+                      className="absolute flex items-center justify-center bg-white z-50 left-[50%] translate-y-[-50%] top-[50%] translate-x-[-50%] w-[45px] h-[45px] rounded-full text-textPrimary cursor-pointer"
+                    >
+                      <FaPlay className="text-sm" />
+                    </Link>
                   </div>
                   <div className="flex items-center justify-between mt-4 text-white">
                     <div className="text-sm capitalize font-[700]">
